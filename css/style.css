@@ -1,0 +1,208 @@
+/*CSS for all pages*/
+footer{
+  clear: both;
+  background-color: #6699ff;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+/*CSS for all end*/
+
+/*CSS general*/
+.center-text{
+  text-align: center;
+}
+.border{
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float:right;
+}
+.clear{
+  clear: both;
+}
+/*end of CSS general*/
+
+
+
+/*navigation bar for all three pages*/
+#main-navbar {
+  font-family:'Limelight', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #6699ff;
+  overflow: hidden;
+  width: 100%
+}
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#main-navbar ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+#onpage {
+  background-color: #0066cc;
+}
+
+/*CSS for page 1*/
+.resume-background {
+  background-color: #cce6ff;
+}
+#resume-outline{
+  width: 70%;
+  margin: 0 auto 5% auto;
+  padding: 1% 1% 1% 1%;
+  background-color: #ffffe6;
+}
+/*End of CSS Page 1*/
+
+/*CSS for page 2*/
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 2.0vw; 
+}
+
+.cat4 {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 10px dashed white;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  box-sizing: border-box; 
+  transition: transform 0.3s ease-in-out;
+}
+.cat4:hover {
+  transform: scale(1.1);  
+}
+.backstory { 
+  text-align: center;
+  font-size: 20px;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  align-items: stretch;
+  background-color: #ffcccc;
+  width: 90%;
+  margin: 0 auto;
+ font-family: 'Viga', sans-serif; 
+}
+.card {
+  padding: 10px;
+  margin: 0 -5px;
+}
+.cards > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.card > article img{
+  max-width: 100%;
+}
+.card .text {
+  padding: 0 20px 20px;
+}
+.backg{
+  background-color: #99ccff;
+}
+
+/*End of CSS page 2*/
+
+/*CSS for page 3*/
+.title2 {
+  background-color: #663300;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  width: 900px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Great Vibes', sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.general {
+  background-color: #d2a479;
+  text-align: center;
+  margin: 30px auto;
+  width: 500px;
+  padding: 25px 30px;
+  font-family: 'Gloock', serif;
+  font-size: 20px;
+  color: #d9d9d9;
+  display: block;
+}
+#home {
+  background-image: url("http://cdn.shopify.com/s/files/1/0597/0549/1612/products/ShowProductImage_aee7a8eb-1aff-4fdd-a142-8b071caa30f8.jpg?v=1662668716");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back1 {
+  background-color: #ecd9c6;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+.back1-object {
+  margin-left: 1em;
+  order: 1;
+  height: 200px;
+  width: 300px;
+}
+.back1-body{
+  font-family: 'Gloock', serif;
+  flex: 1;
+}
+.back1-h {
+  font-family: 'Gloock', serif;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 0 0 .5em;
+  color: #331a00;
+}
+
+/*End of CSS page 3*/
