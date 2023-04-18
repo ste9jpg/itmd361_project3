@@ -1,5 +1,5 @@
-/*CSS for all pages*/
-footer{
+/* CSS for all pages */
+footer {
   clear: both;
   background-color: #6699ff;
   overflow: hidden;
@@ -7,37 +7,36 @@ footer{
   text-align: center;
   color: #fff;
 }
-/*CSS for all end*/
 
-/*CSS general*/
-.center-text{
+/* CSS for all end */
+
+/* CSS general */
+.center-text {
   text-align: center;
 }
-.border{
+.border {
   border-top: 1px solid black;
   padding-top: 10px;
 }
-.float-left{
+.float-left {
   float: left;
 }
-.float-right{
-  float:right;
+.float-right {
+  float: right;
 }
-.clear{
+.clear {
   clear: both;
 }
-/*end of CSS general*/
+/* end of CSS general */
 
-
-
-/*navigation bar for all three pages*/
+/* navigation bar for all three pages */
 #main-navbar {
-  font-family:'Limelight', cursive;
+  font-family: 'Limelight', cursive;
   font-size: 20px;
   font-weight: bold;
   background-color: #6699ff;
   overflow: hidden;
-  width: 100%
+  width: 100%;
 }
 #navbar-container {
   float: left;
@@ -72,17 +71,33 @@ footer{
   background-color: #0066cc;
 }
 
-/*CSS for page 1*/
+/* CSS for page 1 */
 .resume-background {
   background-color: #cce6ff;
 }
-#resume-outline{
+#resume-outline {
   width: 70%;
   margin: 0 auto 5% auto;
   padding: 1% 1% 1% 1%;
   background-color: #ffffe6;
 }
-/*End of CSS Page 1*/
+/* End of CSS Page 1 */
+
+/* Media queries for mobile */
+@media screen and (min-width: 768px) {
+  /* Style changes for screens with minimum width of 768px */
+  #main-navbar ul li {
+    display: inline; /* Change display from block to inline */
+    float: none; /* Remove float property */
+  }
+  #main-navbar ul li a {
+    padding: 10px; /* Reduce padding for better spacing on smaller screens */
+  }
+  #resume-outline {
+    width: 90%; /* Reduce width for better fit on smaller screens */
+  }
+}
+/* End of media queries for mobile */
 
 /*CSS for page 2*/
 
