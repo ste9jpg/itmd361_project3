@@ -26,9 +26,11 @@ function init(){
 	  content: contentString
     });
 	
-  google.maps.event.addListener(marker, 'mouseover', function(){
+  google.maps.event.addListener(marker, 'hovering', function(){
 	  infowindow.open(myMap, marker);
     });
 }
 
 google.maps.event.addDomListener(window, 'load', init);
+
+
