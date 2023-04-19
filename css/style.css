@@ -83,20 +83,19 @@ footer {
 }
 /* End of CSS Page 1 */
 
-/* Media queries for mobile */
+/*Mobile fitting */
 @media screen and (max-width: 767px) {
-  /* Style changes for screens with maximum width of 767px (mobile screens) */
   #resume-outline {
-    width: 90%; /* Reduce width for better fit on smaller screens */
-    margin: 5% auto; /* Adjust margin for better spacing */
+    width: 90%; 
+    margin: 5% auto; 
   }
   #main-navbar ul li {
-    display: block; /* Change display from inline to block for better spacing */
-    float: none; /* Remove float property */
+    display: block; 
+    float: none; 
   }
   #main-navbar ul li a {
-    padding: 10px; /* Reduce padding for better spacing */
-    font-size: 16px; /* Reduce font size for better readability on smaller screens */
+    padding: 10px;
+    font-size: 16px; /
   }
 }
 /* End of media queries for mobile */
