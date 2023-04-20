@@ -238,7 +238,8 @@ footer {
 #canvas {
 	width: 800px;
 	height: 600px;
-	margin: 30 px auto;
+	background-color: #52527a;
+	margin: 30px auto;
 }
 
 .map-background {
