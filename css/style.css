@@ -125,7 +125,17 @@ footer {
 .swiper-slide:hover {
   transform: scale(1.1);  
 }
-
+.swiper{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 10px dashed white;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  box-sizing: border-box; 
+  transition: transform 0.3s ease-in-out;
+}
 
 .backstory { 
   text-align: center;
