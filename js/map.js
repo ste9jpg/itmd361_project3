@@ -18,7 +18,7 @@ function init(){
     animation: google.maps.Animation.DROP,
     icon: {
       url: 'media/m.png',
-      scaledSize: new google.maps.Size(20, 20) // Adjust the size as per your requirement
+      scaledSize: new google.maps.Size(40, 40) // Adjust the size as per your requirement
     }
   });
 
