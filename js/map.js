@@ -1,6 +1,6 @@
 function init(){
   var el = document.getElementById('canvas');
-  var myLocation = new google.maps.LatLng(22.16105784753953, -100.98542359647507);
+  var myLocation = new google.maps.LatLng(41.88423965688473, -87.65348588130207);
   var mapOptions = {
     center: myLocation,
     zoom: 16,
