@@ -1,9 +1,9 @@
-function init() {
+function init(){
   var el = document.getElementById('canvas');
   var myLocation = new google.maps.LatLng(41.883796338138474, -87.65370045842398);
   var mapOptions = {
     center: myLocation,
-    zoom: 18,
+    zoom: 16,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
@@ -15,7 +15,7 @@ function init() {
   var marker = new google.maps.Marker({
     position: myLocation,
     map: myMap,
-    animation: google.maps.Animation.BOUNCE,
+    animation: google.maps.Animation.DROP,
     icon: 'media/m.png'
   });
 
@@ -29,9 +29,10 @@ function init() {
 	  infowindow.open(myMap, marker);
   });
 
-google.maps.event.addDomListener(window, 'load', init);
   
   marker.addListener('click', function() {
     infowindow.open(myMap, marker);
   });
 }
+
+google.maps.event.addDomListener(window, 'load', init);
