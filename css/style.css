@@ -235,14 +235,14 @@ footer {
 
 #canvas {
 	width: 800px
-	height: 600px;
+    height: 600px;
 	background-color: #cc0000;
 	margin: 30 px auto;
 }
 
 .map-background {
- background-color: #ffffcc
- margin: 10 px
+ background-color: #ffffcc;
+ margin: 10 px;
 }
 
 /*End of CSS page 4*/
