@@ -17,7 +17,7 @@ function init(){
 	  position: myLocation,
 	  map: myMap,
 	  animation: google.maps.Animation.BOUNCE,
-	  icon: 'm.png'
+	  icon: 'media/m.png'
   });
   
   var contentString = '<h2>Hamburger University</h2><p>Hamburger University is a training facility at the McDonald's Corporation global headquarters in Chicago, Illinois. It instructs high-potential restaurant managers, mid-managers and owner-operators in restaurant management.</p>'
@@ -26,10 +26,6 @@ function init(){
 	  content: contentString
     });
 	
-  google.maps.event.addListener(marker, 'mouseover', function(){
-	  infowindow.open(myMap, marker);
-    });
-}
 
 google.maps.event.addDomListener(window, 'load', init);
 
