@@ -228,16 +228,16 @@ footer {
 
 /*CSS for page4*/
 #wrapper {
-  width: 950px;
-  height: 700px;
+  width: 850px;
+  height: 600px;
   background-color: #800000;
   margin:0 auto;
   overflow: hidden;
 }	
 
 #canvas {
-	width: 800px;
-	height: 600px;
+	width: 700px;
+	height: 500px;
 	background-color: #f2f2f2;
 	margin: 30px auto;
 }
