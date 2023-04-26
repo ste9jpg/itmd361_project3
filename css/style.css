@@ -1,3 +1,5 @@
+Fixed code:
+
 /* CSS for all pages */
 footer {
   clear: both;
@@ -49,12 +51,10 @@ footer {
   padding: 0;
   position: relative;
   left: 50%;
-  float: left;
+  transform: translateX(-50%);
 }
 #main-navbar ul li {
   float: left;
-  position: relative;
-  right: 50%;
   display: block;
 }
 #main-navbar ul li a {
@@ -95,7 +95,7 @@ footer {
   }
   #main-navbar ul li a {
     padding: 10px;
-    font-size: 16px; /
+    font-size: 16px; 
   }
 }
 /* End of media queries for mobile */
@@ -106,6 +106,7 @@ footer {
 .title {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   font-family: 'Lexend Deca', sans-serif;
   font-size: 2.0vw; 
@@ -143,7 +144,7 @@ footer {
   background-color: #ffcccc;
   width: 90%;
   margin: 0 auto;
- font-family: 'Viga', sans-serif; 
+  font-family: 'Viga', sans-serif; 
 }
 .card {
   padding: 10px;
@@ -165,66 +166,52 @@ footer {
 
 /*End of CSS page 2*/
 
-/*CSS for page 3*/
+/* CSS for page 3 */
 .title2 {
-  background-color: #663300;
-  text-align: center;
-  font-size: 30px;
-  margin: auto;
-  width: 900px; 
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: 'Great Vibes', sans-serif;
-  font-weight: 800;
-  color: #ffffff;
+background-color: #663300;
+text-align: center;
+font-size: 30px;
+margin: auto;
+width: 900px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: 'Great Vibes', sans-serif;
+font-weight: 800;
+color: #ffffff;
 }
 
 .general {
-  background-color: #d2a479;
-  text-align: center;
-  margin: 30px auto;
-  width: 500px;
-  padding: 25px 30px;
-  font-family: 'Gloock', serif;
-  font-size: 20px;
-  color: #d9d9d9;
-  display: block;
-}
-#home {
-  background-image: url("http://cdn.shopify.com/s/files/1/0597/0549/1612/products/ShowProductImage_aee7a8eb-1aff-4fdd-a142-8b071caa30f8.jpg?v=1662668716");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.back1 {
-  background-color: #ecd9c6;
-  border-radius: 10px;
-  margin: 30px auto;
-  width: 1150px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;  
-}
-.back1-object {
-  margin-left: 1em;
-  order: 1;
-  height: 200px;
-  width: 300px;
-}
-.back1-body{
-  font-family: 'Gloock', serif;
-  flex: 1;
-}
-.back1-h {
-  font-family: 'Gloock', serif;
-  font-size: 20px;
-  text-decoration: underline;
-  margin: 0 0 .5em;
-  color: #331a00;
+background-color: #d2a479;
+text-align: center;
+margin: 30px auto;
+width: 500px;
+padding: 25px 30px;
+font-family: 'Gloock', serif;
+font-size: 20px;
+color: #d9d9d9;
+display: block;
 }
 
-/*End of CSS page 3*/
+#home {
+background-image: url("http://cdn.shopify.com/s/files/1/0597/0549/1612/products/ShowProductImage_aee7a8eb-1aff-4fdd-a142-8b071caa30f8.jpg?v=1662668716");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.back1 {
+background-color: #ecd9c6;
+border-radius: 10px;
+margin: 30px auto;
+width: 1150px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}
 
 /*CSS for page4*/
 #wrapper {
@@ -247,4 +234,5 @@ footer {
  margin: 10 px;
 }
 
-/*End of CSS page 4*/
+/*End of CSS page 4*/ 
+/* End of CSS for all pages */
