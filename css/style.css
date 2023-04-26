@@ -147,24 +147,8 @@ footer {
   font-family: 'Viga', sans-serif; 
 }
 .card {
-  padding: 10px;
-  margin: 0 -5px;
-}
-.cards > article {
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-}
-.card > article img{
-  max-width: 100%;
-}
-.card .text {
-  padding: 0 20px 20px;
-}
-.backg{
-  background-color: #99ccff;
-}
+  padding: 10
 
-/*End of CSS page 2*/
 
 /* CSS for page 3 */
 .title2 {
@@ -208,31 +192,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
+/* fix syntax error below */
 text-overflow: ellipsis;
 overflow: hidden;
 white-space: nowrap;
 }
 
-/*CSS for page4*/
-#wrapper {
-  width: 850px;
-  height: 600px;
-  background-color: #800000;
-  margin:0 auto;
-  overflow: hidden;
-}	
-
-#canvas {
-	width: 700px;
-	height: 500px;
-	background-color: #f2f2f2;
-	margin: 30px auto;
-}
-
-.map-background {
- background-color: #ffffcc;
- margin: 10 px;
-}
-
-/*End of CSS page 4*/ 
 /* End of CSS for all pages */
