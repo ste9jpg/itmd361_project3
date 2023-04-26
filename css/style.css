@@ -111,49 +111,43 @@ footer {
   font-size: 2.0vw; 
 }
 
-.slider {
-  width: 400px;
-  height: 200px;
-  margin: 0 auto;
-  overflow: hidden;
+.slide-container {
+  max-width: 1000px;
   position: relative;
+  margin: 25%;
 }
-
-.slider img {
-  width: 400px;
-  height: 200px;
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.slider img.active {
-  display: block;
-}
-
-.prev,
-.next {
+.back, .next {
+  cursor: pointer;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  cursor: pointer;
-  z-index: 999;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
-
-.prev {
-  left: 10px;
-}
-
 .next {
-  right: 10px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-
+.back{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {font-size: 11px}
 }
 .backstory { 
   text-align: center;
