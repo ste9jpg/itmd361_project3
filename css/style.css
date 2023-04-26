@@ -95,7 +95,7 @@ footer {
   }
   #main-navbar ul li a {
     padding: 10px;
-    font-size: 16px; /
+    font-size: 16px; 
   }
 }
 /* End of media queries for mobile */
@@ -244,7 +244,6 @@ footer {
 
 .map-background {
  background-color: #ffffcc;
- margin: 10 px;
-}
+ margin: 10px;
 
 /*End of CSS page 4*/ 
